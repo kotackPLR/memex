@@ -1,1 +1,130 @@
-# memex
+<html
+  lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nasi Goreng Bang Jir</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+      color: #333;
+    }header {
+  background: linear-gradient(90deg, #ffffff 60%, #e53935);
+  padding: 20px;
+  border-bottom: 5px solid #1e88e5;
+}
+
+header h1 {
+  margin: 0;
+  color: #e53935;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #1e88e5;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 2px solid #e53935;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #e53935;
+}
+
+.price {
+  color: #1e88e5;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 40px;
+  background: #f5f5f5;
+  border-top: 4px solid #1e88e5;
+  text-align: center;
+  padding: 15px;
+}
+
+/* halaman kontak */
+.contact {
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #c62828;
+}
+
+  </style>
+</head>
+<body><header>
+  <h1>Nasi Goreng Bang Jir</h1>
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+</header><div class="container" id="menu">
+  <h2>Menu Andalan</h2>
+  <div class="menu">
+    <div class="card">
+      <h3>Nasi Goreng</h3>
+      <p>Nasi goreng spesial, porsi mantap.</p>
+      <p class="price">Rp 15.000</p>
+    </div>
+    <div class="card">
+      <h3>Mie Goreng</h3>
+      <p>Mie goreng gurih pedas nagih.</p>
+      <p class="price">Rp 14.000</p>
+    </div>
+    <div class="card">
+      <h3>Minuman</h3>
+      <p>Es teh, es jeruk, kopi.</p>
+      <p class="price">Mulai Rp 5.000</p>
+    </div>
+  </div>
+</div><div class="container" id="kontak">
+  <h2>Hubungi Kami</h2>
+  <div class="contact">
+    <input type="text" placeholder="kotak" />
+    <input type="text" placeholder="083194854924" />
+    <textarea rows="4" placeholder="memek lu kontol"></textarea>
+    <button>Kirim</button>
+  </div>
+</div><footer>
+  <p>© 2025 Nasi Goreng Bang Jir</p>
+</footer></body>
+</html>
